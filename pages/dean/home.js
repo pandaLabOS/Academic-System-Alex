@@ -1,9 +1,12 @@
-import utilStyles from '../../styles/utils.module.css';
+import styles from '../../styles/dean.module.css';
+import Navbar from '../../components/navbar.js';
 
 export default function Dean_Home() {
     return(
-    <div className={utilStyles.heading2XLCenter}>
-        Home
+    <div>
+        <div className={styles.lecturer}>
+            <h1></h1>
+        </div>
     </div>
     )
 }

@@ -7,6 +7,7 @@ import utilStyles from '../styles/utils.module.css';
 const Navbar = () => {
     return (
         <div className={styles.nav}>
+            
             <div className={styles.logo}>
                 <Image
                     priority
@@ -15,13 +16,14 @@ const Navbar = () => {
                     height={55}
                     alt={"AU Logo"}
                 />
-                <div classname={styles.heading}>AU-DARS</div>
+                <h1>AU-DARS</h1>
 
             </div>
-            <links className={styles.buttonText_default}>
+
+            <links className={styles.buttons}>
                 <Link href = "/dean/home">
-                    <a className={styles.buttonText}>
-                        Home
+                    <a className={styles.buttonText_selected}>
+                        Lecturer
                     </a>
                 </Link>
 
@@ -32,6 +34,9 @@ const Navbar = () => {
                 </Link>
             </links>
 
+            <profile className={styles.profile}>
+                <h1>SC</h1>
+            </profile>
         </div>
     );
 }

@@ -1,7 +1,6 @@
 import utilStyles from '../styles/utils.module.css';
 import Image from 'next/image';
 import styles from '../components/layout.module.css';
-import Link from 'next/link';
 
 const name = 'AU Digital Academic Remuneration System';
 
