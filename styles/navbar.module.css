@@ -70,24 +70,41 @@
 .buttonText_selected {
     font-weight: 600;
     color: #D73938;
-    margin: 14px 10px;
+    margin: 16px 16px;
 }
 
 .buttonText_default {
     font-weight: 400;
     color: #979797;
-    margin: 14px 10px;
+    margin: 16px 16px;
 }
 
 .profile {
-    width: 200px;
-    height: 77px;
-    top: 0px;
-    
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #808080;
+
+    margin-left: 42px;
+    top: 10px;
+
+    width: 65px;
+    height: 65px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.25px;
+
+    color: #D73938;
 }
 
 .profile h1{ /*In circle*/
@@ -113,7 +130,7 @@
     color: #D73938;
 }
 
-.profile h2 { /*Full n/ame*/
+.profile h2 { /*Full name*/
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;

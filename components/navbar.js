@@ -22,8 +22,20 @@ const Navbar = () => {
 
             <links className={styles.buttons}>
                 <Link href = "/dean/home">
-                    <a className={styles.buttonText_selected}>
-                        Lecturer
+                    <a className={styles.buttonText_default}>
+                        Home
+                    </a>
+                </Link>
+
+                <Link href = "/dean/courses">
+                    <a className={styles.buttonText_default}>
+                        Courses
+                    </a>
+                </Link>
+
+                <Link href = "/dean/advising">
+                    <a className={styles.buttonText_default}>
+                        Advising
                     </a>
                 </Link>
 
@@ -35,7 +47,7 @@ const Navbar = () => {
             </links>
 
             <profile className={styles.profile}>
-                <h1>SC</h1>
+                SC
             </profile>
         </div>
     );

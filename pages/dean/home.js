@@ -5,7 +5,7 @@ export default function Dean_Home() {
     return(
     <div>
         <div className={styles.lecturer}>
-            <h1></h1>
+            <h1>Home</h1>
         </div>
     </div>
     )
