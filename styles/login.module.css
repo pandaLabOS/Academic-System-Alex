@@ -1,0 +1,70 @@
+.loginContainer {
+    height: 872px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginContainer h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    width: 312px;
+    height: 80px;
+    top: 18px;
+}
+
+.loginContainer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5;
+
+    font-family:'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #656363;
+}
+
+.logo {
+    width: 238px;
+    height: 234px;
+    top: 166px;
+}
+
+.button {
+    background: #FFFFFF;
+    border: 2px solid #656363;
+    display:inline-block;
+    width: 327px;
+    height: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #656363;
+}
+
+.loginButton {
+    background-image: url("../public/logos/ms-logo.png");
+    border: 2px solid #656363;
+    display:inline-block;
+    width: 327px;
+    height: 53px;   
+}
+
+#loginButton img {
+    width: 31.33px;
+    height: 31.44px;
+}
